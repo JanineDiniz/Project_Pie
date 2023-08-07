@@ -1,0 +1,77 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+
+/* ESTILO */
+body{
+  font-family: 'Oxanium', cursive;
+  background-image: linear-gradient(180deg, rgba(235,173,199,1) 0%, rgba(237,109,162,1) 51%, rgba(245,45,130,1) 100%);
+  background-attachment: fixed;
+  color: white;
+}
+#cabecalho{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+#cabecalho img{
+  width: 180px;
+}
+#selecao_torta{
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  min-height: calc(100vh - 220px); 
+  justify-content: center;
+  margin: 0 100px;
+}
+#selecao_torta #lista_torta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+#selecao_torta #tortas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 670px;
+  gap: 25px;
+}
+#selecao_torta #tortas #titulo{
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ffb8db;
+  width: 100%;
+  text-align: center;
+}
+#lista_torta .tortas img{
+  width: 200px;
+}
+#lista_torta .tortas.selecionado{
+  filter: drop-shadow(0px 0px 18px #d40202);
+}
+#torta_selecionada{
+  text-align: center;
+}
+#torta_selecionada #torta_grande{
+  width: 350px;
+}
+#torta_selecionada #nome_torta{
+  border-bottom: 2px solid #47f4ff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+#torta_selecionada #descricao_torta{
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 20px;
+}

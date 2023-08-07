@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsivo.css">
+</head>
+<body>
+  <header id="cabecalho">
+    <img class="logo" src="src/logo.png" alt="Logo">
+  </header>
+  <main id="selecao_torta">
+    <section id="tortas">
+      <h1 id="titulo">Selecione uma torta</h1>
+      <ul id="lista_torta">
+        <li id="limao" class="tortas selecionado" data-name="Torta de Limão" data-description="Deliciosa torta de limão, com creme italiano, decorado com uma gelatina azedinha e uma fatia de limão">
+          <img src="src/limao.png" alt="Torta de Limão">
+        </li>
+        <li id="banana" class="tortas" data-name="Torta de Banana" data-description="Cremosa torta de banana, com creme aveludado, decorado com caramelo e rodelas de banana">
+          <img src="src/banana.png" alt="Torta de Banana">
+        </li>
+        <li id="kiwi" class="tortas" data-name="Torta de Kiwi" data-description="Irresistível torta de kiwi, com um leve creme de baunilha, decorado com galatina de kiwi e rodelas de kiwi">
+          <img src="src/kiwi.png" alt="Torta de Kiwi">
+        </li>
+        <li id="laranja" class="tortas" data-name="Torta de Laranja" data-description="Saborosa torta de Laranja, com creme cítrico, decorado com caramelo de laranja e uma fatia de laranja">
+          <img src="src/laranja.png" alt="Torta de Laranja">
+        </li>
+        <li id="amora" class="tortas" data-name="Torta de Amora" data-description="Inesquecível torta de amora, com cremosíssimo creme de queijo, decorado com calda de amoras e amoras frescas">
+          <img src="src/amora.png" alt="Torta de Amora">
+        </li>
+        <li id="cereja" class="tortas" data-name="Torta de Cereja" data-description="Incrível torta de cereja, com cremosíssimo creme de queijo, decorado com calda de cerejas e cerejas frescas">
+          <img src="src/cereja.png" alt="Torta de Cereja">
+        </li>
+      </ul>
+    </section>
+    <section id="torta_selecionada">
+      <img id="torta_grande" src="src/limao.png" alt="Torta Selecionada">
+      <div id="informa">
+        <h2 class="nome_torta" id="nome">Torta de Limão</h2>
+        <p  class="descricao_torta" id="descricao">Deliciosa torta de limão, com creme italiano de limão, decorado com gelatina e uma fatia de limão</p>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>

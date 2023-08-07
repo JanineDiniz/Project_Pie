@@ -1,0 +1,40 @@
+@media (max-width: 1362px){
+  #selecao_torta{
+    margin: 40px 100px;
+  }
+}
+@media (max-width: 1167px) {
+  #selecao_torta{
+    margin: 40px 100px;
+    flex-direction: column;
+  }
+  #cabecalho img{
+    width: 150px;
+  }
+  #torta_selecionada{
+    border-top: 2px solid white;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 646px){
+  #lista_torta .tortas img{
+    width: 150px;
+  }
+}
+
+@media (max-width: 546px){
+  #lista_torta .tortas img{
+    width: 140px;
+  } 
+  #selecao_torta #tortas #titulo{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 526px){
+  #lista_torta .tortas img{
+    width: 125px;
+  }
+
+}
